@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Table</title>
+  <script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+      <link rel="stylesheet" href="../static/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Résultat</h1>
+  <p>Hotel : {{ var8 }}</p>
+<table class="rwd-table">
+
+  <tr>
+    <th>Nom du modèle</th>
+    <th>Prix de la nuit</th>
+    <th>MSE</th>
+    <th>MAE</th>
+      <th>R2</th>
+
+  </tr>
+    <tr>
+    <td data-th="Nom du modèle">K-NN</td>
+    <td data-th="Prix">{{ var6 }}</td>
+    <td data-th="MAE">851.23</td>
+    <td data-th="MSE">18.05</td>
+        <td data-th="R2">0.55</td>
+  </tr>
+
+
+</table>
+
+
+</body>
+</html>
